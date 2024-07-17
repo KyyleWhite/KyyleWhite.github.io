@@ -8,10 +8,11 @@ body {
 
 /* This will style the navigation bar */
 nav {
+    display: flex;
+    justify-content: space-around;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
 }
 
 /* This will style the links in the navigation bar */
@@ -19,6 +20,8 @@ nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
+    flex: 1;
+    font-size: 1.5em;
 }
 
 /* This will style the header */
