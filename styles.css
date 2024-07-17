@@ -1,0 +1,45 @@
+/* This will style the body of your website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* This will style the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* This will style the links in the navigation bar */
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* This will style the header */
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* This will style the main content area */
+main {
+    padding: 20px;
+}
+
+/* This will style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
