@@ -46,3 +46,39 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#section1 {
+    background-image: url('path/to/your/image1.jpg');
+}
+
+#section2 {
+    background-image: url('path/to/your/image2.jpg');
+}
+
+.content-section {
+    height: 50vh;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 2em;
+}
