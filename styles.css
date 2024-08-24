@@ -53,6 +53,8 @@ html {
 }
 
 body, html {
+    margin: 0;
+    padding: 0;
     height: 100%;
     overflow-x: hidden;
 }
@@ -65,11 +67,11 @@ body, html {
 }
 
 #section1 {
-    background-image: url('/Users/kylewhite/Downloads/blank-white-7sn5o1woonmklx1h.jpg');
+    background-image: url('path/to/your/image1.jpg');
 }
 
 #section2 {
-    background-image: url('/Users/kylewhite/Downloads/360_F_463512856_GEk2IrQkYatpRVR9YDhiZgRY2z00Zet3.jpg');
+    background-image: url('path/to/your/image2.jpg');
 }
 
 .content-section {
@@ -81,4 +83,29 @@ body, html {
     align-items: center;
     font-size: 2em;
     padding: 2em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    padding-top: 60px; /* Adjust for fixed nav */
+    text-align: center;
+    background: #f4f4f4;
+    padding: 2em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: white;
 }
